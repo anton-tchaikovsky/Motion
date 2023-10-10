@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint android:id="@id/car_image_view">
+            <Layout
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:rotation="180"
+                motion:layout_constraintBottom_toBottomOf="parent"
+                motion:layout_constraintEnd_toEndOf="@+id/vertical_guide_line_25"
+                motion:layout_constraintStart_toStartOf="parent"
+                motion:layout_constraintTop_toTopOf="@+id/horizontal_guide_line_80" />
+        </Constraint>
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/set_1">
+        <Constraint
+            android:id="@id/car_image_view"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:rotation="180"
+            motion:layout_constraintBottom_toBottomOf="@+id/horizontal_guide_line_80"
+            motion:layout_constraintEnd_toEndOf="@+id/vertical_guide_line_25"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="@+id/horizontal_guide_line_60" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/set_2">
+        <Constraint
+            android:id="@id/car_image_view"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:rotation="180"
+            motion:layout_constraintBottom_toBottomOf="@+id/horizontal_guide_line_70"
+            motion:layout_constraintEnd_toEndOf="@+id/vertical_guide_line_25"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="@+id/horizontal_guide_line_50"
+             />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/rotation_set_2_3">
+        <Constraint
+            android:id="@id/car_image_view"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:rotation="270"
+            motion:layout_constraintBottom_toBottomOf="@+id/horizontal_guide_line_60"
+            motion:layout_constraintEnd_toEndOf="@+id/vertical_guide_line_25"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="@+id/horizontal_guide_line_40" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/set_3">
+        <Constraint
+            android:id="@id/car_image_view"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:rotation="270"
+            motion:layout_constraintBottom_toBottomOf="@+id/horizontal_guide_line_60"
+            motion:layout_constraintEnd_toEndOf="@+id/vertical_guide_line_37.5"
+            motion:layout_constraintStart_toStartOf="@+id/vertical_guide_line_12.5"
+            motion:layout_constraintTop_toTopOf="@+id/horizontal_guide_line_40" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/rotation_set_3_4">
+        <Constraint
+            android:id="@id/car_image_view"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:rotation="180"
+            motion:layout_constraintBottom_toBottomOf="@+id/horizontal_guide_line_60"
+            motion:layout_constraintEnd_toEndOf="@+id/vertical_guide_line_50"
+            motion:layout_constraintStart_toStartOf="@+id/vertical_guide_line_25"
+            motion:layout_constraintTop_toTopOf="@+id/horizontal_guide_line_40" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/set_4">
+        <Constraint
+            android:id="@id/car_image_view"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:rotation="180"
+            motion:layout_constraintBottom_toBottomOf="@+id/horizontal_guide_line_50"
+            motion:layout_constraintEnd_toEndOf="@+id/vertical_guide_line_50"
+            motion:layout_constraintStart_toStartOf="@+id/vertical_guide_line_25"
+            motion:layout_constraintTop_toTopOf="@+id/horizontal_guide_line_30" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/rotation_set_4_5">
+        <Constraint
+            android:id="@id/car_image_view"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:rotation="270"
+            motion:layout_constraintBottom_toBottomOf="@+id/horizontal_guide_line_40"
+            motion:layout_constraintEnd_toEndOf="@+id/vertical_guide_line_50"
+            motion:layout_constraintStart_toStartOf="@+id/vertical_guide_line_25"
+            motion:layout_constraintTop_toTopOf="@+id/horizontal_guide_line_20" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/set_5">
+        <Constraint
+            android:id="@id/car_image_view"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:rotation="270"
+            motion:layout_constraintBottom_toBottomOf="@+id/horizontal_guide_line_40"
+            motion:layout_constraintEnd_toEndOf="@+id/vertical_guide_line_75"
+            motion:layout_constraintStart_toStartOf="@+id/vertical_guide_line_50"
+            motion:layout_constraintTop_toTopOf="@+id/horizontal_guide_line_20" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/set_6">
+        <Constraint
+            android:id="@id/car_image_view"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:rotation="270"
+            motion:layout_constraintBottom_toBottomOf="@+id/horizontal_guide_line_40"
+            motion:layout_constraintEnd_toEndOf="@+id/vertical_guide_line_87.5"
+            motion:layout_constraintStart_toStartOf="@+id/vertical_guide_line_62.5"
+            motion:layout_constraintTop_toTopOf="@+id/horizontal_guide_line_20" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/rotation_set_6_end">
+        <Constraint
+            android:id="@id/car_image_view"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:rotation="180"
+            motion:layout_constraintBottom_toBottomOf="@+id/horizontal_guide_line_40"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="@+id/vertical_guide_line_75"
+            motion:layout_constraintTop_toTopOf="@+id/horizontal_guide_line_20" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:id="@+id/car_image_view"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:rotation="180"
+            motion:layout_constraintBottom_toBottomOf="@+id/horizontal_guide_line_20"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="@+id/vertical_guide_line_75"
+            motion:layout_constraintTop_toTopOf="parent" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/rotation_set_end_7">
+        <Constraint
+            android:id="@+id/car_image_view"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:rotation="90"
+            motion:layout_constraintBottom_toBottomOf="@+id/horizontal_guide_line_20"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="@+id/vertical_guide_line_75"
+            motion:layout_constraintTop_toTopOf="parent" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/set_7">
+        <Constraint
+            android:id="@+id/car_image_view"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:rotation="90"
+            motion:layout_constraintBottom_toBottomOf="@+id/horizontal_guide_line_20"
+            motion:layout_constraintEnd_toEndOf="@+id/vertical_guide_line_37.5"
+            motion:layout_constraintStart_toStartOf="@+id/vertical_guide_line_12.5"
+            motion:layout_constraintTop_toTopOf="parent" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/rotation_set_7_8">
+        <Constraint
+            android:id="@+id/car_image_view"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:rotation="0"
+            motion:layout_constraintBottom_toBottomOf="@+id/horizontal_guide_line_20"
+            motion:layout_constraintEnd_toEndOf="@+id/vertical_guide_line_25"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/set_8">
+        <Constraint
+            android:id="@+id/car_image_view"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:rotation="0"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="@+id/vertical_guide_line_25"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="@+id/horizontal_guide_line_80" />
+    </ConstraintSet>
+
+    <Transition
+        motion:autoTransition="none"
+        motion:constraintSetEnd="@+id/set_1"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000"
+        motion:motionInterpolator="linear">
+    </Transition>
+    <Transition
+        motion:autoTransition="animateToEnd"
+        motion:constraintSetEnd="@+id/set_2"
+        motion:constraintSetStart="@+id/set_1"
+        motion:duration="500"
+        motion:motionInterpolator="linear" />
+    <Transition
+        motion:autoTransition="animateToEnd"
+        motion:constraintSetEnd="@+id/rotation_set_2_3"
+        motion:constraintSetStart="@+id/set_2"
+        motion:duration="1000"
+        motion:motionInterpolator="linear" />
+    <Transition
+        motion:autoTransition="animateToEnd"
+        motion:constraintSetEnd="@+id/set_3"
+        motion:constraintSetStart="@+id/rotation_set_2_3"
+        motion:duration="500"
+        motion:motionInterpolator="linear" />
+    <Transition
+        motion:autoTransition="animateToEnd"
+        motion:constraintSetEnd="@+id/rotation_set_3_4"
+        motion:constraintSetStart="@+id/set_3"
+        motion:duration="1000"
+        motion:motionInterpolator="linear" />
+    <Transition
+        motion:autoTransition="animateToEnd"
+        motion:constraintSetEnd="@+id/set_4"
+        motion:constraintSetStart="@+id/rotation_set_3_4"
+        motion:duration="500"
+        motion:motionInterpolator="linear" />
+    <Transition
+        motion:autoTransition="animateToEnd"
+        motion:constraintSetEnd="@+id/rotation_set_4_5"
+        motion:constraintSetStart="@+id/set_4"
+        motion:duration="1000"
+        motion:motionInterpolator="linear" />
+    <Transition
+        motion:autoTransition="animateToEnd"
+        motion:constraintSetEnd="@+id/set_5"
+        motion:constraintSetStart="@+id/rotation_set_4_5"
+        motion:duration="1000"
+        motion:motionInterpolator="linear" />
+    <Transition
+        motion:autoTransition="animateToEnd"
+        motion:constraintSetEnd="@+id/set_6"
+        motion:constraintSetStart="@+id/set_5"
+        motion:duration="500"
+        motion:motionInterpolator="linear" />
+    <Transition
+        motion:autoTransition="animateToEnd"
+        motion:constraintSetEnd="@+id/rotation_set_6_end"
+        motion:constraintSetStart="@+id/set_6"
+        motion:duration="1000"
+        motion:motionInterpolator="linear" />
+    <Transition
+        motion:autoTransition="animateToEnd"
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@+id/rotation_set_6_end"
+        motion:duration="1000"
+        motion:motionInterpolator="linear" />
+    <Transition
+        motion:autoTransition="none"
+        motion:constraintSetEnd="@+id/rotation_set_end_7"
+        motion:constraintSetStart="@+id/end"
+        motion:duration="500"
+        motion:motionInterpolator="linear">
+    </Transition>
+    <Transition
+        motion:autoTransition="animateToEnd"
+        motion:constraintSetEnd="@+id/set_7"
+        motion:constraintSetStart="@+id/rotation_set_end_7"
+        motion:duration="2500"
+        motion:motionInterpolator="linear">
+    </Transition>
+    <Transition
+        motion:autoTransition="animateToEnd"
+        motion:constraintSetEnd="@+id/rotation_set_7_8"
+        motion:constraintSetStart="@+id/set_7"
+        motion:duration="500"
+        motion:motionInterpolator="linear">
+    </Transition>
+    <Transition
+        motion:autoTransition="animateToEnd"
+        motion:constraintSetEnd="@+id/set_8"
+        motion:constraintSetStart="@+id/rotation_set_7_8"
+        motion:duration="4000"
+        motion:motionInterpolator="linear">
+    </Transition>
+    <Transition
+        motion:autoTransition="animateToEnd"
+        motion:constraintSetEnd="@+id/start"
+        motion:constraintSetStart="@+id/set_8"
+        motion:duration="500"
+        motion:motionInterpolator="linear">
+    </Transition>
+</MotionScene>
